@@ -1,0 +1,26 @@
+teams:
+    css-admin-release:      #Approving the change to master
+      - shanmur7admin
+      - motatiradmin
+    css-review-finacle:     #PR reviewer for Finacle components
+      - motatiradmin
+      - shanmur7admin
+    ib-admin:               #IB Acceleration Team
+      - shanmur7admin
+      #- manjunn5admin
+    ib-bot:                 #Only Service Account for automation
+    ib-developers:          #IB Engineers Pool
+      - motatiradmin
+      - shanmur7admin
+      #- uudjdpn
+      # - raghavamotati
+    ib-release-lead:        #IB Release Lead Team
+      - motatiradmin
+      #- isbgjosj
+    ib-reviewer-codefresh:  #Reviewing Codefresh changes in IB
+      - shanmur7admin
+    ib-reviewer-k8:         #Reviewing K8 Changes in IB
+      - motatiradmin
+      - shanmur7admin
+     
+      

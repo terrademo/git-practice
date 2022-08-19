@@ -1,0 +1,24 @@
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mGET https://githubqa.service.anz/api/v3/users/manjunn5admin: 404 Not Found [][0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with module.members["ib-admin"].data.github_user.example["manjunn5admin"],
+[31m│[0m [0m  on modules/members/members.tf line 11, in data "github_user" "example":
+[31m│[0m [0m  11: data "github_user" "example" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mGET https://githubqa.service.anz/api/v3/users/isbgjosj: 404 Not Found [][0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with module.members["ib-release-lead"].data.github_user.example["isbgjosj"],
+[31m│[0m [0m  on modules/members/members.tf line 11, in data "github_user" "example":
+[31m│[0m [0m  11: data "github_user" "example" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mGET https://githubqa.service.anz/api/v3/users/uudjdpn: 404 Not Found [][0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with module.members["ib-developers"].data.github_user.example["uudjdpn"],
+[31m│[0m [0m  on modules/members/members.tf line 11, in data "github_user" "example":
+[31m│[0m [0m  11: data "github_user" "example" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m

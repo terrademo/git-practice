@@ -1,0 +1,50 @@
+locals {
+  # teams data
+  github_ib_teams = {
+    css-admin-release = {
+      description = "Approving the change to master"
+      name        = "css-admin-release"
+      privacy     = "closed"
+    }
+    css-review-finacle = {
+      description = "PR reviewer for Finacle components"
+      name        = "css-review-finacle"
+      privacy     = "closed"
+    }
+    ib-admin = {
+      description = "IB Acceleration Team"
+      name        = "ib-admin"
+      privacy     = "closed"
+    }
+    ib-bot = {
+      description = "Only Service Account for automation"
+      name        = "ib-bot"
+      privacy     = "closed"
+    }
+    ib-developers = {
+      description = "IB Engineers Pool"
+      name        = "ib-developers"
+      privacy     = "closed"
+    }
+    ib-release-lead = {
+      description = "IB Release Lead Team"
+      name        = "ib-release-lead"
+      privacy     = "closed"
+    }
+    ib-reviewer-codefresh = {
+      description = "Reviewing Codefresh changes in IB"
+      name        = "ib-reviewer-codefresh"
+      privacy     = "closed"
+    }
+    ib-reviewer-k8 = {
+      description = "Reviewing K8 Changes in IB"
+      name        = "ib-reviewer-k8"
+      privacy     = "closed"
+    }
+    # demo-team            =  {
+    #     description = "to see the import option"
+    #     name        = "demo-team"
+    #     privacy     =  "closed"
+    # }
+  }
+}
