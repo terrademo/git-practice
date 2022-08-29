@@ -6,19 +6,19 @@ variable "base_url" {
 variable "owner" {
   type        = string
   description = "organisation name"
-  default     = "git-terra-new-demo"
+  default     = "terra-pract1"
 }
 
 variable "token" {
   type        = string
   description = "personel access token"
-  default     = "48590132289541abaa65793c0ddfc36295f0746d"
+  default     = "f9a0081ad4c8c31c769be8eef9f5000e3c4dbfa0"
 }
 
 
 variable "admins"{
   type        = list(string)
   description =  "Owners of the organisation"
-  default     = ["motatiradmin"]
+  default     = ["shanmur7admin","manjunn5admin","raya"]
 
 }

@@ -1,14 +1,14 @@
 locals {
   # teams data
   github_ib_teams = {
-    css-admin-release = {
+    ib-admin-release = {
       description = "Approving the change to master"
-      name        = "css-admin-release"
+      name        = "ib-admin-release"
       privacy     = "closed"
     }
-    css-review-finacle = {
+    ib-review-finacle = {
       description = "PR reviewer for Finacle components"
-      name        = "css-review-finacle"
+      name        = "ib-review-finacle"
       privacy     = "closed"
     }
     ib-admin = {
